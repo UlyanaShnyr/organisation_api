@@ -1,0 +1,46 @@
+
+body {
+  background-color: rgb(247, 240, 238);
+  min-height: 100vh;  
+}
+
+.navbar {
+  background-color: rgb(69, 5, 197) !important;  
+}
+
+.navbar a {
+  color: white !important;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 100% !important;  
+  padding-top: 4rem;
+}
+
+.row {
+  width: 100%; 
+}
+
+ .card {   
+   margin-top: 2rem;
+ }
+
+ .card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ }
+
+.name {
+  text-transform: uppercase;
+  text-align: center;
+  color:  rgb(69, 5, 197);
+}
+
+.image_organisation {
+  height: 100px;
+  width: 100px;
+} 
+
+.divImage {
+  text-align: center;
+}
