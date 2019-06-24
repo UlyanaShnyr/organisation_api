@@ -29,7 +29,7 @@ class UserCard extends Component {
         <div className="card" onClick={this.handleShow}>
           <p className="name">{this.props.name}</p>
           <div className="divImage">
-            <img className="image_organisation" src={this.props.url}></img>
+            <img className="image_organisation" alt="imageUser" src={this.props.url}></img>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ class UserCard extends Component {
             <Modal.Title>{this.props.name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img className="image_organisation" src={this.props.url}></img>
+            <img className="image_organisation" alt="imageUser"src={this.props.url}></img>
             <p>{this.props.followers}</p>
           </Modal.Body>
           <Modal.Footer>
